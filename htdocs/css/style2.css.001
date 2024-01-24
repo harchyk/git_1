@@ -1,0 +1,389 @@
+/*Обнуление*/
+
+/*Стили для демонстрации*/
+
+.wrapper5 {
+	height: 0PX;
+	width: 0PX;
+}
+
+@media (max-width:767px) {
+	.slick-list {
+		overflow: inherit;
+	}
+	.wrapper {
+		padding: 50px 10px;
+	}
+	.wrapper2 {
+		padding: 50px 10px;
+	}
+	.wrapper3 {
+		padding: 50px 10px;
+	}
+	.wrapper4 {
+		padding: 0px 0px;
+	}
+	.wrapper5 {
+		height: auto;
+		width: auto;
+		padding: 0px 0px;
+		background: #3E3E3E;
+	}
+}
+
+
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider {
+	min-width: 0;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Слайд */
+.slick-slide {
+	 margin: 0 10px;
+}
+.slick-slide img {
+	margin: 0 0px;
+}
+.slick-slide2 {
+	margin: 0 50px;
+}
+
+/* Слайд активный */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Стрелка */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки */
+.slick-dots {}
+
+.slick-dots li {}
+
+.slick-dots button {}
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	padding: 0px 60px;
+}
+.slider2 {
+	position: relative;
+	padding: 0px 60px;
+}
+.slider3 {
+	position: relative;
+	padding: 0px 60px;
+}
+.slider4 {
+	position: relative;
+	padding: 0px 0px;
+}
+@media (max-width:767px) {
+	.slider {
+		padding: 0px 40px;
+	}
+	.slider2 {
+		padding: 0px 40px;
+	}
+	.slider3 {
+		padding: 0px 40px;
+	}
+	.slider4 {
+		padding: 0px 0px;
+	}
+}
+
+.slider .slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+}
+
+.slider .slick-arrow.slick-prev {
+	left: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next {
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-disabled {
+	opacity: 0.2;
+}
+
+.slider .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider .slick-dots li {
+	list-style: none;
+	margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #707070;
+	border-radius: 50%;
+
+	border-width: 0px;
+}
+
+
+.slider .slick-dots li.slick-active button {
+	background-color: transparent;
+	border: 0px solid #DE2027;
+	background-color: #DE2027;
+}
+.slider2 .slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+}
+
+.slider2 .slick-arrow.slick-prev {
+	left: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+
+.slider2 .slick-arrow.slick-next {
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+
+.slider2 .slick-arrow.slick-disabled {
+	opacity: 0.2;
+}
+
+.slider2 .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider5 .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider2 .slick-dots li.slick-active button {
+	background-color: transparent;
+	border: 0px solid #DE2027;
+	background-color: #DE2027;
+}
+.slider5 .slick-dots li.slick-active button {
+	background-color: transparent;
+	border: 0px solid #DE2027;
+	background-color: #DE2027;
+}
+
+
+.slider2 .slick-dots li {
+	list-style: none;
+	margin: 0px 10px;
+}
+.slider5 .slick-dots li {
+	list-style: none;
+	margin: 0px 10px;
+}
+
+.slider2 .slick-dots button {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #707070;
+	border-radius: 50%;
+
+	border-width: 0px;
+}
+.slider5 .slick-dots button {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #707070;
+	border-radius: 50%;
+
+	border-width: 0px;
+}
+
+.slider__item {
+	
+}
+
+.slider__item img {
+	width: 110%;
+}
+
+.slider__item.slick-center {}
+
+
+.slider3 .slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+}
+
+.slider3 .slick-arrow.slick-prev {
+	left: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+
+.slider3 .slick-arrow.slick-next {
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+
+.slider3 .slick-arrow.slick-disabled {
+	opacity: 0.2;
+}
+
+.slider3 .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider3 .slick-dots li.slick-active button {
+	background-color: transparent;
+	border: 0px solid #DE2027;
+	background-color: #DE2027;
+}
+
+.slider3 .slick-dots li {
+	list-style: none;
+	margin: 0px 10px;
+}
+
+.slider3 .slick-dots button {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #707070;
+	border-radius: 50%;
+
+	border-width: 0px;
+}
+.slider4 .slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+}
+
+.slider4 .slick-arrow.slick-prev {
+	left: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+
+.slider4 .slick-arrow.slick-next {
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+
+.slider4 .slick-arrow.slick-disabled {
+	opacity: 0.2;
+}
+
+.slider4 .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider4 .slick-dots li.slick-active button {
+	background-color: transparent;
+	border: 0px solid #DE2027;
+	background-color: #DE2027;
+}
+
+.slider4 .slick-dots li {
+	list-style: none;
+	margin: 0px 0px;
+}
+
+.slider4 .slick-dots button {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #707070;
+	border-radius: 50%;
+
+	border-width: 0px;
+}

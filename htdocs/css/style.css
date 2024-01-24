@@ -1,0 +1,437 @@
+/*Обнуление*/
+
+html,body{
+
+}
+.wrapper {
+	overflow: hidden;
+	min-width: 100%; 
+}
+.conteiner {
+	/* width: 1170px; */
+}	
+.header {
+position: relative; 
+width: 100%;
+height: 100px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 14px rgba(131, 152, 200, 0.3);
+border-radius: 3px;
+}
+
+/*Стили для демонстрации*/
+.image {
+	
+position: absolute;
+width: 86px;
+height: 78px;
+left: 2%;
+top: 11px;
+}
+
+.titles {
+	/* центр цифрового образования детей “it-куб”Ангарск */
+
+line-height: 20.64px;	
+position: absolute;
+width: 191px;
+height: 63px;
+left: 11%;
+top: 0px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+/* синий */
+
+color: #1C75BC;
+
+}
+
+.navigation {
+	/* Навигация */
+
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 3%;
+	
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	margin-top: 2.5%;
+	margin-left: 30%;
+}
+
+.onass{
+	/* -moz-appearance: none;
+	-webkit-appearance: none; */
+	border: none;
+	position: relative;
+	outline: none;
+	/* padding: 5px;
+	padding-right: 40px; */
+	
+width: 71px;
+height: 22px; 
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em; 
+
+/* синий */
+
+color: #1C75BC;
+
+
+/* Inside auto layout */
+
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+}
+
+.naprav {
+	/* Направления */
+
+border: none;
+outline: none;
+width: 130px;
+height: 22px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+
+/* синий */
+
+color: #1C75BC;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.novosty{
+	border: none;
+	outline: none;
+	/* Новости */
+
+
+/* width: 20%; */
+height: 22%;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+
+/* синий */
+background: transparent;
+color: #1C75BC;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.ras {
+	outline: none;
+	border: none;
+	/* Расписание */
+
+
+width: 91px;
+height: 22px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+
+/* синий */
+background: transparent;
+color: #1C75BC;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.contact {
+	border: none;
+	outline: none;
+	/* Контакты */
+
+
+width: 50%;
+height: 22%;
+
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+
+/* синий */
+background: transparent;
+color: #1C75BC;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	font-family: 'Circe';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+	color: #1C75BC;
+}
+
+.dalee {
+	font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  width: 50%;
+}
+.container1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 11.1%;
+	font-family: 'Circe';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+	color: #1C75BC;
+}
+
+
+.button {
+	color: white;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: rgb(64,199,129);
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+	transition: 0.2s;
+	margin-top: 8%;
+  } 
+  .button1 {
+	color: white;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: rgb(64,199,129);
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+	transition: 0.2s;
+	margin-top: 8%;
+  }
+  
+.reb {
+	color: #1C75BC;
+	text-align: center;
+}
+
+.footer {
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 30%;
+	background: #1C75BC;
+}
+
+
+.footer_logo {
+	position: absolute;
+	height: 100%;
+	width: 40%;
+	left: 6%;
+
+}
+
+
+.footer-image1 {
+	position: absolute;
+	top: 6%;
+}
+
+.footer-logo{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+}
+
+.infor {
+	/* width: 30%;
+	height: 9%;
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: auto; */
+}
+
+
+.info {
+
+	/* position: absolute; */
+	width: 30%;
+	height: 9%;
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: auto;
+
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+/* line-height: 14%; */
+/* identical to box height, or 24px */
+
+letter-spacing: 0.05em;
+/* text-transform: uppercase; */
+
+color: #FFFFFF;
+}
+.footer_contact {
+	border: none;
+	outline: none;
+	/* Контакты */
+
+
+width: 40%;
+height: 22%;
+
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+
+/* синий */
+background: transparent;
+color: #ffffff;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+display: inline-block;
+/* margin: 0.1%; */
+}
+
+
+/* .blok1 {
+	color: #1C75BC;
+	margin-left: 0%;
+	margin-right: 0%;
+
+} */
+
+.block3 {
+	margin-top: 5%;
+}
+
+.itog {
+	text-align: center;
+	color: #1C75BC;
+
+}
+
+
+
+.footer_novosty {
+	border: none;
+	outline: none;
+	/* Новости */
+
+
+/* width: 20%; */
+height: 22%;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+
+/* синий */
+background: transparent;
+color: #fdfdfd;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+.footer_navigation {	
+
+	margin-left: 80%;
+
+}
