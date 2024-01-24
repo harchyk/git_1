@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="mouse-parallax-bg">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stule.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src='script.js'></script>
+</head>
+<body>
+    <header>
+        <div class="header_logo"><p>MARS</p></div>
+        <nav>
+            <div class="topnav" id="MyTopnav">
+                <a href="#">О марсе</a>
+                <a href="#">Процесс</a>
+                <a href="#">Билеты</a>
+                <a href="#">Новости</a>
+                <a href="#">Контакты</a>
+                <a href="#" id="menu" class="icon">&#9776;</a>
+                <button onclick="location.href = '#openModal'" class="button">Купить билеты</button>
+            </div>
+        </nav>
+    </header>
+        <img src="Group2.svg" class="stick">
+    <div class="main">
+        <h3>Точка назначения:</h3>
+        <h1 class="mars_main">Марс</h1>
+    </div>
+        <div class="b-popup" id="openModal">
+            <div class="b-popup-content">
+                <div class="popup_heder">Бронирование <br> билетов
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                    <div class="row">
+                        <div>
+                            <label for="date_entrance" class="required">Дата зачисления </label> <br>
+                            <input type="date" value=" " class="date_entrance" />
+                        </div>
+                        <div>
+                            <label for="date_order">Дата приказа </label> <br>
+                            <input type="date" value=" " class="date_order" />
+                        </div>
+                        <div>
+                            <label for="piople">Количество</label> <br>
+                            <input type="text" class="piople" />
+                        </div>
+                    </div>
+                    <div class="button_popup">
+                        <button class="button_popup_k">Купить билеты</button>
+                    </div>
+            
+            </div>
+        </div>
+</body>
+</html>
